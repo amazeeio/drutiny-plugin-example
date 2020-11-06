@@ -1,5 +1,5 @@
 {
-  "name": "amazeeio/drutiny-plugin-exapmle",
+  "name": "amazeeio/drutiny-plugin-example",
   "type": "library",
   "description": "Example plugin for Drutiny.",
   "keywords": ["drupal", "audit", "drush", "security", "report"],

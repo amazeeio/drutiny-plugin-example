@@ -32,12 +32,12 @@ remediation: Please run with remediation to resolve.
 severity: critical
 ```
 
-Also, see the full Policy Library managed under Drutiny [Policy Libary](https://drutiny.github.io/2.3.x/policy-library/)
+Also, see the full Policy Library managed under Drutiny [Policy Library](https://drutiny.github.io/2.3.x/policy-library/)
 
 
 ## Adding the audit
 
-Again, the best place to exlain this is the Drutiny docs themselves [Audits](https://drutiny.github.io/2.3.x/audits/)
+Again, the best place to explain this is the Drutiny docs themselves [Audits](https://drutiny.github.io/2.3.x/audits/)
 
 An example audit included in this repo, looks like this:
 

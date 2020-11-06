@@ -66,7 +66,7 @@ There are two core commands in Drutiny which we should explain first are: `polic
 #### policy:audit
 This runs the policy against a target (mostly likely a drush target) which will do the checks we want to run.
 
-Fundamentally, we need to provide a policy (e.g. Test:Pass) and a target (e.g. `drush alias @site-prod.site-name`). We can also pass in options such as `--format` which defines the output format. Parameters / default values can also be passed into policies with the `-p` flag, for example `-p module=8.6.8`.
+Fundamentally, we need to provide a policy (e.g. `Test:Pass`) and a target (e.g. `drush alias @site-prod.site-name`). We can also pass in options such as `--format` which defines the output format. Parameters / default values can also be passed into policies with the `-p` flag, for example `-p module=8.6.8`.
 
 ```
 policy:audit [options] [--] <policy> <target> <format>
@@ -96,4 +96,4 @@ drutiny profile:run example @site-prod.site-name --format==markdown
 
 ### SEE ALSO
 
-* [Adding policies](Extending/adding-policies.md)	- Add a new policy
+* [Adding policies](../Extending/adding-policies.md)	- Add a new policy

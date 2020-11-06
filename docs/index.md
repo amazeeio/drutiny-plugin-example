@@ -8,13 +8,13 @@ Drutiny is a php-based cli tool, and within this base image the executable is ma
 drutiny
 ```
 
-To find policies which you are able to use for auditin, run the `policy:list` command
+To find policies which you are able to use for auditing, run the `policy:list` command
 
 ```
 drutiny policy:list
 ```
 
-See the Drutiny summary for more info [Drutiny](Setup/drutiny-summary.md)
+See the Drutiny summary for more info on [Drutiny](Setup/drutiny-summary.md)
 
 
 ## Drutiny Plugins (e.g. this repo)
@@ -23,6 +23,13 @@ This repo is an example plugin for Drutiny - meaning that it gets added ontop of
 
 This plugin therefore provides us a way to add in our own policies, profiles, formatters and anything else we like in order to extend the existing Drutiny functionality.
 
+The preferable way to manage Drutiny plugins within the base image is use the `packages` file (`/scripts/drutiny/packages`). Here we can list, on new lines, the composer packages we wish to include:
+
+```
+/app$ cat scripts/drutiny/packages
+bomoko/lagoon-formatter:dev-master
+amazeeio/drutiny-plugin-example:dev-master
+```
 
 You could also add this plugin via composer:
 

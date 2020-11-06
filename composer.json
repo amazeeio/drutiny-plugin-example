@@ -13,7 +13,10 @@
     }
   },
   "minimum-stability": "dev",
+  "prefer-stable": true,
   "require-dev": {
-    "phpunit/phpunit": "^5.0"
+    "phpunit/phpunit": "^5.0",
+    "doctrine/annotations": "^1.12@dev",
+    "drutiny/drutiny": "^2.4"
   }
 }

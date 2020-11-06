@@ -10,6 +10,7 @@ use Drutiny\Annotation\Token;
 class PHPversion extends Audit {
 
   /**
+  * Returns the latest PHP version
   * @inheritdoc
   */
   public function audit(Sandbox $sandbox) {

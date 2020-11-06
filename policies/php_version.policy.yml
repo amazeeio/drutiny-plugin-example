@@ -1,0 +1,8 @@
+title: "PHP Version"
+class: \Drutiny\Common\Audit\PHPversion
+name: common:PHPversion
+description: |
+  Runs a check for current php version on host.
+success: |
+  PHP version: {{ version }}
+failure: Could not find php version.

@@ -1,0 +1,19 @@
+{
+  "name": "amazeeio/drutiny-plugin-exapmle",
+  "type": "library",
+  "description": "Example plugin for Drutiny.",
+  "keywords": ["drupal", "audit", "drush", "security", "report"],
+  "authors": [
+    {"name": "Tim Clifford", "email": "tim.clifford@amazee.com"}
+  ],
+  "autoload": {
+    "psr-4": {
+      "Drutiny\\Common\\": "src/",
+      "DrutinyTests\\Common\\": "tests/src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require-dev": {
+    "phpunit/phpunit": "^5.0"
+  }
+}

@@ -1,6 +1,6 @@
 # Drutiny
 
-"A generic Drupal site auditing and optional remediation tool. Fun Fact: The name is a portmanteau of "Drupal" and "scrutiny." (https://drutiny.github.io/)s
+"A generic Drupal site auditing and optional remediation tool. Fun Fact: The name is a portmanteau of "Drupal" and "scrutiny." (https://drutiny.github.io/)
 
 Check out the Drutiny docs for more info [Drutiny Docs](https://drutiny.readthedocs.io/en/2.x/README/)
 
@@ -12,7 +12,7 @@ A Drutiny profile is a structured data file (in YAML) which contains a collectio
 
 A profile will be saved to any location where Drutiny can be called from but it must use the filename pattern `*.profile.yml`.
 
-See [Profiles](Profiles - https://drutiny.readthedocs.io/en/2.x/profiles/)
+See [Profiles](https://drutiny.readthedocs.io/en/2.x/profiles/)
 
 
 ### What are Policies?
@@ -23,7 +23,7 @@ A policy will be saved to any location where Drutiny can be called from, but it 
 See [Policies](https://drutiny.readthedocs.io/en/2.x/policy/)
 
 ### What are Audits?
-An audit contains the test logic that a single policy can be run against.
+An audit contains the logic that a policy can be run against.
 
 This can be done by using `policy:audit` and passing the policy name and site target:
 

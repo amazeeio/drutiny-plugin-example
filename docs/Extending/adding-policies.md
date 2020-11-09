@@ -1,5 +1,7 @@
 # Adding a new policy and audit
 
+We can use this plugin repo to add new policies to Drutiny.
+
 To add a new policy we need two files:
 * a new Policy yaml added (e.g. preferably under /policies)
 * and also a new Audit class here (e.g. /src/Audit)

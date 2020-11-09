@@ -1,6 +1,9 @@
-## Getting started
+## Using Drutiny
 
-Drutiny is accessible anywhere within the base image via `drutiny`.
+First check if Drutiny has been installed within the image by running the wrapper script that runs the binary.
+
+The Drutiny binary is accessible anywhere within the base image via `drutiny`.
+
 
 ```
 Drutiny -dev
@@ -87,7 +90,7 @@ For profiles, we need to provide a profile name (e.g. `example`) and a target (e
 profile:run [options] [--] <profile> <target>
 ```
 
-The final command would look something like this
+The final command would look something like this:
 
 ```
 drutiny profile:run example @site-prod.site-name --format==markdown
@@ -96,4 +99,5 @@ drutiny profile:run example @site-prod.site-name --format==markdown
 
 ### SEE ALSO
 
-* [Adding policies](../Extending/adding-policies.md)	- Add a new policy
+* [Drutiny summary](./drutiny-summary.md)	- Understanding Drutiny
+* [Extending Drutiny](../Extending/adding-policies.md)	- Adding a new policy

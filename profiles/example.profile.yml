@@ -1,7 +1,7 @@
 title: Example
 description: 'Collection of example policies'
 policies:
-    'common:PHPAnalysis': { severity: 2 }
+    'common:PHPversion': { severity: 2 }
     # 'Database:Size': { severity: 2 }
     # 'fs:largeFiles': { severity: 2 }
     # 'Drupal:moduleUpdates': { severity: 2 }

@@ -1,0 +1,24 @@
+title: CSS aggregation is enabled
+class: \Drutiny\Common\Audit\ConfigCheck
+name: common:ConfigCheck
+tags:
+  - Drupal 8
+  - Best Practice
+  - Performance
+description: With CSS optimization not installed your website visitors are experiencing slower page performance and the server load is increased.
+remediation: Set the configuration object `system.performance` key `css.preprocess` to be `TRUE`.
+success: CSS aggregation is enabled.
+failure: CSS aggregation is not enabled.
+parameters:
+  collection:
+    type: string
+    default: 'system.performance'
+    description: 'The config collection the config item belows to'
+  key:
+    type: string
+    default: 'css.preprocess'
+    description: ''
+  value:
+    type: boolean
+    default: True
+    description: ''

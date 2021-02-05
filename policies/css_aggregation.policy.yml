@@ -1,6 +1,6 @@
 title: CSS aggregation is enabled
 class: \Drutiny\Common\Audit\ConfigCheck
-name: common:ConfigCheck
+name: common:CSSAggregation
 tags:
   - Drupal 8
   - Best Practice

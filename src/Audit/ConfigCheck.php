@@ -44,7 +44,7 @@ class ConfigCheck extends AbstractComparison implements RemediableInterface {
 
     $config = $sandbox->drush([
       'format' => 'json',
-      'include-overridden' => TRUE,
+      'include-overridden' => NULL,
       ])->configGet($collection, $key);
     $reading = $config[$collection . ':' . $key];
 
